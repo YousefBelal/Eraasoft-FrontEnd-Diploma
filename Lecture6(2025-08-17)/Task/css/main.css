@@ -1,0 +1,196 @@
+body {
+  font-size: 15px;
+  line-height: 1.86em;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", arial;
+  font-weight: 400;
+}
+
+p,
+h4 {
+  color: #686868;
+}
+
+.first-section {
+  width: 80%;
+  height: 75vh;
+  margin: 5% auto;
+}
+
+.first-section-item {
+  width: 45%;
+  height: 100%;
+  float: left;
+  margin-left: 4%;
+}
+
+.first-section-item img {
+  height: 100%;
+}
+
+.first-section-item h1 {
+  color: #303030;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 100px 0px 25px;
+}
+
+.first-section-item p,
+.first-section-item ul li {
+  font-size: 15px;
+}
+
+.first-section-item p {
+  line-height: 30px;
+}
+
+.first-section-item ul {
+  margin: 0px 0px 15px;
+  list-style: none;
+  padding: 0px;
+}
+
+.first-section-item ul li {
+  margin: 0px 0px 8px;
+  padding: 2px 0px;
+}
+
+.first-section-item ul i {
+  margin: 0px 10px 0px 0px;
+  color: #4caf50;
+}
+
+button {
+  color: white;
+  font-size: 12px;
+  background: #4caf50;
+  margin: 25px 0px 12px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.first-section button:hover {
+  background: black;
+}
+
+.second-section {
+  width: 100%;
+  height: 70vh;
+  margin: 5% auto;
+  background: #f8f8f8;
+}
+
+.second-section-item {
+  width: 100%;
+  height: 30%;
+  box-sizing: border-box;
+}
+
+.second-section-item i {
+  color: #4caf50;
+  font-size: 50px;
+  padding: 5% 0% 0% 48%;
+}
+
+.second-section-content {
+  float: left;
+  width: 28%;
+  margin-left: 3.5%;
+}
+
+.clip-triangle {
+  width: 20px;
+  height: 15px;
+  background: white;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  margin: 0px 28px 5px;
+}
+
+.second-section-content p {
+  background: white;
+  font-size: 16px;
+  padding: 22px 26px;
+  line-height: 25px;
+  margin: 16px 0px 0px;
+}
+
+.second-section-content h4 {
+  font-size: 15px;
+  line-height: 25px;
+  padding-left: 22px;
+}
+
+.third-section {
+  width: 85%;
+  height: 30vh;
+  margin: 5% auto;
+}
+
+.third-section-item {
+  width: 25%;
+  height: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px 80px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.third-section-item h1 {
+  font-size: 30px;
+}
+
+.third-section-item h3 {
+  color: rgb(90, 89, 89);
+  font-family: "Open Sans", arial;
+}
+
+.third-section-item i {
+  font-size: 30px;
+  color: grey;
+}
+
+.fourth-section {
+  width: 100%;
+  height: 70vh;
+  margin: 5% auto;
+  box-sizing: border-box;
+  /* background-image: url(http://www.engage.veented.com/business-2/wp-content/uploads/sites/127/2017/04/full-2.jpg?id=1033) !important;
+  background-size: cover;
+  background-position: center center; */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(http://www.engage.veented.com/business-2/wp-content/uploads/sites/127/2017/04/full-2.jpg?id=1033)
+      no-repeat center center/cover;
+  background-blend-mode: multiply;
+}
+
+.fourth-section-item {
+  text-align: center;
+  padding-top: 10%;
+}
+
+.fourth-section h2 {
+  color: white;
+  margin: 0px 0px 25px;
+  font-size: 32px;
+}
+
+.fourth-section p {
+  color: #ffffffeb;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.fourth-section button {
+  padding: 15px 28px;
+}
+
+.fourth-section button:hover {
+  background: white;
+  padding: 15px 28px 15px 20px;
+  color: black;
+}
