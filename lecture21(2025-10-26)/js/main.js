@@ -1,6 +1,6 @@
 // accepting inputs from user 
 let originalHeritage = +prompt("Enter the Heritage Amount")
-let isWifeAlive = prompt("Is the wife Alive?(1 for yes/ 0 for no)")
+let isWifeAlive = confirm("Is the wife Alive?")
 let numberOfSons = +prompt("Enter the Number of Sons") 
 let numberOfDaughters = +prompt("Enter the Number of Daughters") 
 
