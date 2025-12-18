@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+
+@theme {
+  --color-dark: #1b1937;
+  --font-inter: "Inter", sans-serif;
+  --font-deca: "Lexend Deca", sans-serif;
+}
