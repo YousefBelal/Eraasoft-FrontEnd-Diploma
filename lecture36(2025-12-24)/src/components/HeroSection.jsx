@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <div className="hero bg-base-200 min-h-screen">
+    <div className="hero bg-base-200 animate-fade-down animate-duration-1500 min-h-screen">
       <div className="hero-content text-center">
         <div className="max-w-150">
           <h1 className="text-5xl font-bold">
